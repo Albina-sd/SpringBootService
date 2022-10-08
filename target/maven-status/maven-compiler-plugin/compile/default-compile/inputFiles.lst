@@ -1,0 +1,12 @@
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/controllers/StorehousesController.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/repositories/StorehousesRepository.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/models/Storehouses.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/services/implementations/SweetsService.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/services/implementations/StorehousesService.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/repositories/SweetsRepository.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/services/SweetsServiceInterface.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/app/Application.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/controllers/MainController.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/services/StorehousesServiceInterface.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/controllers/SweetsController.java
+/home/albina/IdeaProjects/springbootservice/src/main/java/com/springservice/models/Sweets.java
