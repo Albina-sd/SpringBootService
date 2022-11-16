@@ -1,4 +1,5 @@
 package com.springservice.models;
 
-public class Role {
+public enum Role {
+    ADMIN, USER;
 }

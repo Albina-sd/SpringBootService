@@ -15,7 +15,7 @@
 <h2>List of storehouses </h2>
 
 <div>
-    <a href="/">Back to Home page</a> |
+    <a href="/index">Back to Home page</a> |
     <a href="/storehouses/add">Add Storehouse</a>
 
 </div>

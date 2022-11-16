@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
 
     //ToDo почему не отображается картинка?
-    @GetMapping(value = "/")
+    @GetMapping(value = "/index")
     public String index(Model model) {
 
         return "index";

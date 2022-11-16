@@ -16,7 +16,7 @@
 <h1>List of sweets </h1>
 
 <div>
-    <a href="/">Back to Home page</a> |
+    <a href="/index">Back to Home page</a> |
     <a href="/sweets/add">Add Sweet</a>
 
 </div>

@@ -1,4 +1,5 @@
 package com.springservice.models;
 
-public class State {
+public enum State {
+    ACTIVE, BANNED, DELETED;
 }

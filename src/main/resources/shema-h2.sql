@@ -45,4 +45,18 @@ CREATE TABLE public.manufacturers_storehouses
     storehouses_id integer NOT NULL,
     manufacturers_id integer NOT NULL,
     PRIMARY KEY (id)
-)
+);
+
+CREATE TABLE public.manufacturers
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 ),
+    name character varying NOT NULL,
+    phone character varying,
+    address character varying,
+    city character varying NOT NULL,
+    country character varying NOT NULL,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE IF EXISTS public.manufacturers
+    OWNER to postgres;
