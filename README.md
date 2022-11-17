@@ -1,2 +1,2 @@
 # SpringBootService
-Pet project
+Pet project with simple front and spring security
