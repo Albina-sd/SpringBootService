@@ -1,7 +1,9 @@
-<#ftl encoding='UTF-8'>
+<!DOCTYPE HTML>
 <html>
 <head>
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Your profile</title>
 </head>
 <body>
 <div class="form-style-2-heading">${user.firstName}</div>

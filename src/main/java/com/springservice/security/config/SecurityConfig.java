@@ -25,12 +25,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/storehouses/**").authenticated()
                 .antMatchers("/sweets/**" ).authenticated()
+                .antMatchers("/index" ).authenticated()
+                .antMatchers("/" ).authenticated()
                 .antMatchers("/signUp/**").permitAll()
-                .antMatchers("/").permitAll()
+                .antMatchers("/profile").permitAll()
+                .antMatchers("/login" ).permitAll()
+
                 .and()
+
                 .formLogin()
                 .usernameParameter("login")
-                .defaultSuccessUrl("/")
+                .defaultSuccessUrl("/index")
                 .loginPage("/login");
         http.csrf().disable();
     }

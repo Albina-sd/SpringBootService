@@ -57,14 +57,15 @@
     <ul>
         <li><a href="/storehouses">Show storehouses</a></li>
         <li><a href="/sweets">Show sweets</a></li>
+        <li><a href="/profile">Profile</a></li>
     </ul>
 </div>
 
 <div id="section">
     <p><i>This application for work with sweets DB.</i></p>
-    <p><i>This DB is from statement about preparing SQL interview. <a href="er-diagram.jpg">Statement link</a> </i></p>
+    <p><i>This DB is from statement about preparing SQL interview. <a href="https://habr.com/ru/post/664550/">Statement link</a> </i></p>
     <p><i>Here you can see ER-diagram of DB:</i></p>
-    <img src="er-diagram.jpg" alt="ER-diagram">
+    <img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/2e6/53f/5e8/2e653f5e88476bfb030bc5608c23adee.jpg" alt="ER-diagram">
     <p><i>We have next main tables: sweets types, sweets, manufacturers, storehouses.</i></p>
 </div>
 
